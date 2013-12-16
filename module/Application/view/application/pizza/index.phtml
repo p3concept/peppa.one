@@ -1,0 +1,15 @@
+<?php  echo $this->pageTitle("Pizza"); ?>
+
+<?php
+
+print "From PizzaController: " . $this->pizza . "<br />";
+print "Numbers from index.phtml: ";
+print_r($numbers);
+
+foreach ($messageQueue as $mq)
+{
+    print($mq);
+    print"<br />";
+}
+
+?>

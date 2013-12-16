@@ -1,0 +1,9 @@
+<?php  echo $this->pageTitle("RSS Feed"); ?>
+<h2>RSS Content</h2>
+<p>
+<?php
+    foreach ( $rsslist as $rssitem) {
+        print_r($rssitem);
+   }
+?>
+</p>
